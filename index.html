@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>enjoyNature</title>
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <header class="flex">
+        <div>
+            <h3 class="logo">exploreNature</h3>
+        </div>
+        <nav>
+            <ul id="navigation-links" class="navigation flex">
+                <li class="zoom">
+                    <a data-id="home" class="link">Home</a>
+                </li>
+                <li class="zoom">
+                    <a data-id="destinations" class="link">Destinations</a>
+                </li>
+                <li class="zoom">
+                    <a data-id="contact" class="link">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- home panel -->
+    <div class="container">
+        <div class="panel flex" id="home">
+            <h1>Find your next adventure</h1>
+            <p class="intro-quote">"Look deep into nature, and then you will understand everything better."
+                <span class="intro-author">Albert Einstein</span>
+            </p>
+        </div>
+
+        <!-- destination panel-->
+        <div class="destinations hide panel" id="destinations">
+            <div class="slide fade" data-title-style="white">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                    style="width:100%">
+                <div class="text-block">
+                    <h4>Forest</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse? Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse?</p>
+                </div>
+            </div>
+
+            <div class="slide fade mountain" data-title-style="grey">
+                <img src="https://images.unsplash.com/photo-1587437720061-dc5f28eb58ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80"
+                    style="width:100%">
+                <div class="text-block">
+                    <h4>Mountain</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse? Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse?</p>
+                </div>
+            </div>
+            <div class="slide fade" data-title-style="grey">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80"
+                    style="width:100%">
+                <div class="text-block">
+                    <h4>Sea</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse? Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse?</p>
+                </div>
+            </div>
+            <div class="slide fade" data-title-style="white">
+                <img src="https://images.unsplash.com/photo-1597650286351-2558e3edf0ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+                    style="width:100%">
+                <div class="text-block">
+                    <h4>Lake</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse? Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse?</p>
+                </div>
+            </div>
+            <div class="slide fade" data-title-style="grey">
+                <img src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    style="width:100%">
+                <div class="text-block">
+                    <h4>Desert</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse? Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Eveniet ullam quo incidunt eaque aut
+                        odit sapiente assumenda? Nam, distinctio quibusdam dolore voluptatibus rerum delectus id
+                        doloremque praesentium qui incidunt esse?</p>
+                </div>
+            </div>
+            <h1 class="title-destination">Where do you want to go?</h1>
+            <a class="prev">❮</a>
+            <a class="next">❯</a>
+        </div>
+
+        <!-- Contact form -->
+        <div class="panel hide" id="contact">
+            <div class="title">
+                <h1>Choose your next destination</h1>
+                <p>Fill the form and we'll be back to you with proposal
+                </p>
+            </div>
+            <form id="proposal-form">
+                <fieldset>
+                    <label id=name-label>Name</label>
+                    <input type="text" id="name" class="field" placeholder="Enter your name" required />
+                    <label class="field" id=email-label>Email</label>
+                    <input type="email" id="email" class="field" placeholder="Enter your email" required />
+                    <label class="field" id="number-label">Age</label>
+                    <input type="number" id="number" class="field" placeholder="Age" min="13" max="120" />
+                </fieldset>
+                <fieldset>
+                    <label class="question">Which option best describes your current outdoor activity?</label>
+                    <select name="role-option" class="field" id="dropdown">
+                        <option value="">Other</option>
+                        <option value="1">Hicking</option>
+                        <option value="2">Swimming</option>
+                        <option value="3">Kayaking</option>
+                        <option value="3">Sailing</option>
+                        <option value="4">Just chilling</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label class="question">Where would you like to go?</label>
+                    <select class="field" name="favorite">
+                        <option value="">Select an option</option>
+                        <option value="1">In the forest</option>
+                        <option value="2">To the sea</option>
+                        <option value="3">To the lake</option>
+                        <option value="4">Into the desert</option>
+                        <option value="5">To the montain</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label class="question">What type of accomodation would you like? (Check all that apply)</label>
+                    <label><input class="inline" type="checkbox" name="check-improve" value="hotel">Hotel</label>
+                    <label><input class="inline" type="checkbox" name="check-improve" value="bed-and-breakfast">Bed and
+                        breakfast</label>
+                    <label><input class="inline" type="checkbox" name="check-improve" value="hostel">Hostel</label>
+                    <label><input class="inline" type="checkbox" name="check-improve" value="hut">Hut</label>
+                    <label><input class="inline" type="checkbox" name="check-improve" value="bungalow">Bungalow</label>
+                    <label><input class="inline" type="checkbox" name="check-improve" value="tent">Tent</label>
+                    <label class="question">Any comments or suggestions?</label>
+                    <textarea name="comment" class="field" placeholder="Enter your comment here..." cols="30"
+                        rows="10"></textarea>
+                </fieldset>
+                <input id="submit" type="submit" value="Submit" class="field submit-button">
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="address">
+            <div>
+                enjoyNature <br />
+                tel: +490123455667<br />
+                e-mail: enjoynature@gmail.com <br />
+            </div>
+            <div class="copy">
+                &copy; franeCode 2022
+            </div>
+            <div>
+                You could visit us at <br />
+                Goethestraße 7,<br />
+                12345 Berlin, Germany
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
